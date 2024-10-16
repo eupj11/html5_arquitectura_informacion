@@ -1,28 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="autor" content="Eugenio Pérez Jiménez">
-    <meta name="description" content="" />
+    <meta name="author" content="Eugenio Pérez Jiménez">
+    <meta name="description" content="Recetas de Cocina">
+    <meta name="keywords" content="recetas, cocina, paella, tortilla, gazpacho">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Recetas de Cocina</title>
 </head>
+
 <body>
     <header>
-
+        <h1>Recetas de Cocina</h1>
     </header>
-    
     <nav>
-
+        <a href="#paella">Paella</a>
+        <a href="#tortilla">Tortilla Española</a>
+        <a href="#gazpacho">Gazpacho</a>
     </nav>
-
     <main>
-        
+        <section id="paella">
+            <article class="recipe">
+                <h2>Paella</h2>
+                <figure>
+                    <img src="paella.jpg" alt="Paella" title="Paella" loading="eager">
+                    <figcaption>Deliciosa paella con mariscos</figcaption>
+                </figure>
+                <p>Una deliciosa receta de paella con mariscos.</p>
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>Arroz</li>
+                    <li>Mariscos</li>
+                    <li>Azafrán</li>
+                    <li>Caldo de pescado</li>
+                    <li>Verduras</li>
+                </ul>
+                <h3>Instrucciones:</h3>
+                <ol>
+                    <li>Calentar el aceite en una paellera.</li>
+                    <li>Añadir las verduras y los mariscos.</li>
+                    <li>Agregar el arroz y el azafrán.</li>
+                    <li>Verter el caldo de pescado y cocinar a fuego lento.</li>
+                    <li>Servir caliente.</li>
+                </ol>
+            </article>
+        </section>
+        <section id="tortilla">
+            <article class="recipe">
+                <h2>Tortilla Española</h2>
+                <figure>
+                    <img src="tortilla.jpg" alt="Tortilla Española">
+                    <figcaption>Clásica tortilla de patatas</figcaption>
+                </figure>
+                <p>Una receta clásica de tortilla de patatas.</p>
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>Patatas</li>
+                    <li>Huevos</li>
+                    <li>Cebolla</li>
+                    <li>Aceite de oliva</li>
+                    <li>Sal</li>
+                </ul>
+                <h3>Instrucciones:</h3>
+                <ol>
+                    <li>Pelar y cortar las patatas y la cebolla.</li>
+                    <li>Freír las patatas y la cebolla en aceite de oliva.</li>
+                    <li>Batir los huevos y mezclarlos con las patatas y la cebolla.</li>
+                    <li>Cocinar la mezcla en una sartén hasta que esté dorada.</li>
+                    <li>Servir caliente.</li>
+                </ol>
+            </article>
+        </section>
+        <section id="gazpacho">
+            <article class="recipe">
+                <h2>Gazpacho</h2>
+                <figure>
+                    <img src="gazpacho.jpg" alt="Gazpacho">
+                    <figcaption>Refrescante sopa fría de tomate</figcaption>
+                </figure>
+                <p>Una refrescante sopa fría de tomate.</p>
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>Tomates</li>
+                    <li>Pimientos</li>
+                    <li>Pepino</li>
+                    <li>Ajo</li>
+                    <li>Aceite de oliva</li>
+                    <li>Vinagre</li>
+                    <li>Sal</li>
+                </ul>
+                <h3>Instrucciones:</h3>
+                <ol>
+                    <li>Pelar y cortar los tomates, pimientos y pepino.</li>
+                    <li>Mezclar todos los ingredientes en una licuadora.</li>
+                    <li>Enfriar en el refrigerador antes de servir.</li>
+                    <li>Servir frío.</li>
+                </ol>
+            </article>
+        </section>
+        <section></section>
+        <form action="" method="post">
+            <h3>¡Aún no estas registrado, unete a nuestra comunidad!</h3>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" name="correo" id="correo">
+            <label for="asunto">Asunto</label>
+            <input type="text" name="asunto" id="asunto">
+            <label for="mensaje"></label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+        </form>
+        </section>
+        <aside>
+            <h2>Consejos de Cocina</h2>
+            <p>Descubre trucos y consejos para mejorar tus habilidades culinarias.</p>
+            <ul>
+                <li>Cómo elegir los mejores ingredientes.</li>
+                <li>Trucos para cocinar arroz perfecto.</li>
+                <li>Consejos para mantener tus cuchillos afilados.</li>
+            </ul>
+        </aside>
     </main>
-
     <footer>
-
+        <p>© 2024 Recetas de Cocina. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:info@recetasdecocina.com">info@recetasdecocina.com</a></p>
+        <p>Síguenos en:
+            <a href="https://www.facebook.com/recetasdecocina" target="_blank">Facebook</a> |
+            <a href="https://www.twitter.com/recetasdecocina" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com/recetasdecocina" target="_blank">Instagram</a>
+        </p>
     </footer>
 </body>
+
 </html>
